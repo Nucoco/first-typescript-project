@@ -45,5 +45,14 @@
 // genericsBasicSample()
 // genericsAdvancedSample()
 
-import { popularComic } from './interface/interface'
-console.log(popularComic.getPublishYear())
+//#9
+// import { popularComic } from './interface/interface'
+// console.log(popularComic.getPublishYear())
+
+//#10
+import asyncAwaitSample from './asynchronous/asyncAwait'
+import callbackSample from './asynchronous/callback'
+import promiseSample from './asynchronous/promise'
+callbackSample()
+promiseSample()
+asyncAwaitSample()
