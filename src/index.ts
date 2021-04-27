@@ -40,7 +40,10 @@
 // tupleSample()
 
 //#7
-import genericsAdvancedSample from './generics/advanced'
-import genericsBasicSample from './generics/basic'
-genericsBasicSample()
-genericsAdvancedSample()
+// import genericsAdvancedSample from './generics/advanced'
+// import genericsBasicSample from './generics/basic'
+// genericsBasicSample()
+// genericsAdvancedSample()
+
+import { popularComic } from './interface/interface'
+console.log(popularComic.getPublishYear())
